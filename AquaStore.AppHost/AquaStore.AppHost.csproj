@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AquaStore.API\AquaStore.API.csproj" />
+    <ProjectReference Include="..\AquaStore.Application\AquaStore.Application.csproj" />
+    <ProjectReference Include="..\AquaStore.DataAccess\AquaStore.DataAccess.csproj" />
+    <ProjectReference Include="..\AquaStore.Domain\AquaStore.Domain.csproj" />
+    <ProjectReference Include="..\AquaStore.Shared.Enums\AquaStore.Shared.Enums.csproj" />
+  </ItemGroup>
+
+</Project>
